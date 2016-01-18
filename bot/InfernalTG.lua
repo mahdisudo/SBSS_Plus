@@ -206,6 +206,13 @@ function create_config( )
     enabled_plugins = {
      "Help_All",
     "Auto_Leave",
+    "Chat",
+    "Google",
+    "Joke",
+    "Quran",
+    "google_img",
+    "hello",
+    "wlc",
     "BLOCK",
     "Feedback",
     "Member_Manager",
@@ -238,28 +245,12 @@ function create_config( )
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[infernalTG  v2 - Open Source
-An advance Administration bot based on yagop/telegram-bot 
+An advance Administration bot based on yagop/telegram-bot by @Mr_Ah_S
  
- our official github :
- https://github.com/INFERNALTEAM/InfernalTG.git
-Antispambot : @InfernalTG
-website ; https://arash-infernal.epage.ir
-Admins
-@Creed_is_dead [Founder]
-@digitalboys [Developer]
-@Arashinfernal [Developer]
-@MustafFlux [Manager]
+@Mr_Ah_S {Dev , Founder and Manager}
 
-Special thanks to
-Imandaneshi
-thisisarman
-yago perez ...
-and more ...
-
-Our channels
-@Infernalteamch [English]
-@infernalchannel [persian]
-@Infernalteam [persian]
+Our channel
+@SBSS_Team
 ]],
     help_text_realm = [[
 group admin Commands:
@@ -317,7 +308,7 @@ group admin Commands:
 *Only admins and sudo can use res, setowner, commands
 ]],
     help_text = [[
-tools for InfernalTG :
+tools for SBSS Plus :
 
 >#1.Add_bot
 >#2.Anti_Bot
@@ -354,8 +345,8 @@ tools for InfernalTG :
 >#32.share
 help all plugin soon :D ,"
 You Can Get Bot version by sending !version,"
-Master admin : @ArashInfernal ,"
-our channel : @INFERNALTEAMCH ,"
+Master admin : @Mr_Ah_S ,"
+our channel : @SBSS_Team ,"
 
 ]]
   }
